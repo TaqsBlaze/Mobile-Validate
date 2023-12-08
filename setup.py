@@ -81,16 +81,11 @@ This package is under active development, and contributions are always welcome.
     install_requires=["pip"],
     classifiers=[
     	"Development Status :: 3 - Alpha",
-		"Intended Audience :: 2 - Developers",
-		"Topic :: 7 - Communications",
-		"Topic :: 16 - Software Development",
+		"Intended Audience :: Developers",
+		"Topic :: Communications",
+		"Topic :: Utilities",
 		"License :: OSI Approved :: MIT License",
-		"Programming Language :: 7 - Python :: 3",
-		"Operating System :: 1 - OS Independent",
-		"Classifier :: 11 - Phone Number Validation",
-		"Classifier :: 12 - Country Detection",
-		"Classifier :: 13 - International",
-		"Classifier :: 14 - Regular Expressions"
+		"Programming Language :: Python :: 3"
 		],
 	python_requires=">=3.8",
     entry_points={"cli":["snipet=mobile_validate.validator:Example.show"]},
