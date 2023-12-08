@@ -2,14 +2,14 @@ from setuptools import setup
 
 setup(
     name="mobile_validate",
-    version="1.0.1",
+    version="1.0.2",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
     long_description="""
     
 **Easy and Powerful International Phone Number Validation with Country Detectio**
 
-easy-phone-numbers is a Python package designed to streamline the process of validating international phone numbers and identifying their corresponding countries. It leverages a comprehensive library of country-specific regular expressions to ensure accurate and reliable results.
+mobile-validate is a Python package designed to streamline the process of validating international phone numbers and identifying their corresponding countries. It leverages a comprehensive library of country-specific regular expressions to ensure accurate and reliable results.
 
 **Key Features**
 
