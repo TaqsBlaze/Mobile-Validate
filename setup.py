@@ -5,7 +5,7 @@ setup(
     version="1.0.0",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
-    description="""
+    long_description="""
     
 **Easy and Powerful International Phone Number Validation with Country Detectio**
 
