@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from setuptools import setup
 
 setup(
@@ -94,5 +93,7 @@ This package is under active development, and contributions are always welcome.
 		"Classifier :: 14 - Regular Expressions"
 		],
 	python_requires=">=3.8",
-    entry_points={"cli":["snipet=mobile_validate.validator:Example.show"]}
+    entry_points={"cli":["snipet=mobile_validate.validator:Example.show"]},
+    # Add this line to specify the content type of your long description
+    long_description_content_type="text/x-rst"
 )
