@@ -3,9 +3,9 @@ from mobile_validate.check_list import phone_regex
 
 
 
-def  valid_number(number, country):
-	
-	  try:
+def valid_number(number, country):
+
+	 try:
 	    regex = phone_regex.get(country)
 	    if isinstance(regex, set): #This checks is country has mobile and fixed line formats:'#	'
 	      for pattern in regex:
@@ -18,9 +18,21 @@ def  valid_number(number, country):
 	    # Country not found in the regex list
 	    return False
 	
+def get_country(phone_number):
 	
-class Example:
-		
+	for country in phone_regex:
+		if isinstance(phone_regex.get(country), set):
+			for pattern in phone_regex.get(country):
+				if re.match(pattern, phone_number):
+					return country
+
+		else:
+			
+			if re.match(phone_regex.get(country), phone_number):
+				return country
+class Example: 
+
+	
 	def show():
 			
 		eg = """

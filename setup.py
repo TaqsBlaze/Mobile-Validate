@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="mobile_validate",
-    version="1.0.2",
+    version="1.1.2",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
     long_description="""
@@ -69,6 +69,20 @@ mobile-validate offers an intuitive API for phone number validation and country 
         print(f"Valid {country} mobile number")
     else:
         print(f"Not a valid {country} number")
+
+**Checking which country a number is from***
+
+::
+
+    from mobile_validate.validator import get_country
+
+
+    number = "+31784773900"
+
+    country = get_country(number)
+
+    print(f"{number} is from {country}")
+
 
 **Note**
 
