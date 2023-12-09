@@ -14,7 +14,7 @@ def valid_number(number, country):
 	    else:
 	      if re.match(regex, number):
 	        return True
-	  except KeyError:
+	 except KeyError:
 	    # Country not found in the regex list
 	    return False
 	
