@@ -63,6 +63,19 @@ mobile-validate offers an intuitive API for phone number validation and country 
     else:
         print(f"Not a valid {country} number")
 
+
+Checking Carrier provider for a number 📶
+--------------------------------------
+
+.. code-block:: python
+
+    from mobile_validate.validaro import get_provider
+   
+    phone_number = "+44778392002"
+    provider = get_provider(phone_number)
+    print(provider)
+
+
 Note 📄
 ----
 

@@ -1,6 +1,7 @@
 import re
+import phonenumbers
 from mobile_validate.check_list import phone_regex
-
+from phonenumbers.carrier import name_for_number
 
 
 def valid_number(number, country):
@@ -30,6 +31,18 @@ def get_country(phone_number):
 			
 			if re.match(phone_regex.get(country), phone_number):
 				return country
+
+
+def get_provider(number):
+
+	ro_num = phonenumbers.parse(number, "RO")
+	provider = str(name_for_number(ro_num, "en")
+
+
+	return provider
+
+
+
 class Example: 
 
 	

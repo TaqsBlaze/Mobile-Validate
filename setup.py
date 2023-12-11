@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="mobile_validate",
-    version="1.1.3",
+    version="1.2.0",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
     long_description="""
@@ -84,6 +84,19 @@ mobile-validate offers an intuitive API for phone number validation and country 
     print(f"{number} is from {country}")
 
 
+**Checking Carrier provider**
+
+::
+
+    from mobile_validate.validator import get_provider
+
+    phone_number = "+44889073398"
+    provider = get_provider(phone_number)
+
+    print(provider)
+
+
+
 **Note**
 
 
@@ -92,7 +105,7 @@ This package is under active development, and contributions are always welcome.
 """,
     license="MIT",
     url="https://github.com/taqsblaze/mobile-validate",
-    install_requires=["pip"],
+    install_requires=["pip","phonenumbers"],
     classifiers=[
     	"Development Status :: 3 - Alpha",
 		"Intended Audience :: Developers",
