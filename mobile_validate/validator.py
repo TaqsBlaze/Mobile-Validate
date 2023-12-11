@@ -36,7 +36,7 @@ def get_country(phone_number):
 def get_provider(number):
 
 	ro_num = phonenumbers.parse(number, "RO")
-	provider = str(name_for_number(ro_num, "en")
+	provider = str(name_for_number(ro_num, "en"))
 
 
 	return provider
