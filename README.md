@@ -25,6 +25,11 @@ The module currently supports phone number validation for a wide range of countr
 - South America: Argentina, Brazil
 - Oceania: Australia
 
+
+12/12/23
+--------
+```18 more countries been added in version v1.2.2```
+- consider updating to v1.2.2 ```pip install -U mobile-validate```
 Applications 🤔
 ------------
 
@@ -85,7 +90,7 @@ This package is under active development, and contributions are always welcome.�
 Sponsor Mobile-Validate 💰
 ------------------------
 - You can support me on this journey by sponsoring via these playforms
-- Any Trc10 token: <div style="background:lightred;border-radius:8pc">TBueWQVP14pHX8n5QBHpmk1YD2WAWc27RE</div>
+- Any Trc10/Trc20 token: <div style="background:lightred;border-radius:8pc">TBueWQVP14pHX8n5QBHpmk1YD2WAWc27RE</div>
 - Airtm: <div style="background:lightblue;border-radius:8pc;">tanakah30@gmail.com</div>
 
 - Please consider sponsoring as this will highly motivate me to keep adding more cool features 
