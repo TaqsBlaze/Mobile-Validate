@@ -30,6 +30,8 @@ The module currently supports phone number validation for a wide range of countr
 --------
 ```18 more countries been added in version v1.2.2```
 - consider updating to v1.2.2 ```pip install -U mobile-validate```
+
+
 Applications 🤔
 ------------
 
