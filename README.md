@@ -80,3 +80,12 @@ Note 📄
 ----
 
 This package is under active development, and contributions are always welcome.👍
+
+
+Sponsor Mobile-Validate 💰
+------------------------
+- You can support me on this journey by sponsoring via these playforms
+- Any Trc10 token: <div style="background:lightred;border-radius:8pc">TBueWQVP14pHX8n5QBHpmk1YD2WAWc27RE</div>
+- Airtm: <div style="background:lightblue;border-radius:8pc;">tanakah30@gmail.com</div>
+
+- Please consider sponsoring as this will highly motivate me to keep adding more cool features 

@@ -43,6 +43,17 @@ def get_provider(number):
 
 
 
+def is_number_active(number):
+
+	#This function will be for checking if a number is active
+	#Will utilize cloud APIs for verificatiin calls
+
+	print("This is a future function which is currently under development")
+
+	pass
+
+
+
 class Example: 
 
 	
