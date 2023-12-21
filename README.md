@@ -1,4 +1,4 @@
-
+![Alt text](https://github.com/TaqsBlaze/Mobile-Validate/blob/main/mobile_validate/image/snip2.png)
 Easy and Powerful International Phone Number Validation with Country Detection
 ============================================================================
 
