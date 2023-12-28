@@ -48,7 +48,7 @@ Installation 🔌💻
 
 The package can be easily installed using pip:
 
-.. code-block:: bash
+:: bash
 
     pip install mobile-validate
 
@@ -57,7 +57,7 @@ Usage 💡
 
 mobile-validate offers an intuitive API for phone number validation and country detection:
 
-.. code-block:: python
+:: python
 
     from mobile_validate.validator import valid_number
 
@@ -74,7 +74,7 @@ mobile-validate offers an intuitive API for phone number validation and country 
 Checking Carrier provider for a number 📶
 --------------------------------------
 
-.. code-block:: python
+:: python
 
     from mobile_validate.validaro import get_provider
    
