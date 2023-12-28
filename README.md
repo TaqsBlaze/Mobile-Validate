@@ -83,6 +83,20 @@ Checking Carrier provider for a number 📶
     print(provider)
 
 
+Country lookup using mobile number
+----------------------------------
+
+::
+
+    from mobile_validate.validator import get_country
+
+    number = +2771700917
+
+    country = get_country(number)
+
+    print(f"Mobile number {number} is from {country}")
+
+
 Note 📄
 ----
 
