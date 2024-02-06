@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="mobile_validate",
-    version="1.2.2",
+    version="1.2.3",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
     long_description="""
