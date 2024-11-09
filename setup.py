@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="mobile_validate",
-    version="1.2.3",
+    version="1.3.3",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
     long_description="""
@@ -31,6 +31,50 @@ The module currently supports phone number validation for a wide range of countr
 * North America: United States of America
 * South America: Argentina, Brazil
 * Oceania: Australia
+
+## 43 Added countries v1.3.3
+* Afghanistan
+* Bangladesh
+* Sri Lanka
+* Pakistan
+* Kuwait
+* Qatar
+* Bahrain
+* UAE
+* Saudi Arabia
+* Oman
+* Jordan
+* Lebanon
+* Cyprus
+* Malta
+* Armenia
+* Georgia
+* Mongolia
+* Uzbekistan
+* Tanzania
+* Kenya
+* Uganda
+* Ethiopia
+* United States (USA)
+* United Kingdom (UK)
+* France
+* Turkey
+* Belgium
+* Sweden
+* Switzerland
+* Austria
+* New Zealand
+* Denmark
+* Norway
+* Finland
+* Iceland
+* Portugal
+* Greece
+* South Korea
+* Thailand
+* Vietnam
+* Philippines
+* Chile
 
 **Applications**
 

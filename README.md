@@ -25,6 +25,56 @@ The module currently supports phone number validation for a wide range of countr
 - South America: Argentina, Brazil
 - Oceania: Australia
 
+09/11/24
+--------
+## update
+added 43 more countries
+- consider updating to v1.3.3 ```pip install -U mobile-validate```
+
+# Added countries
+:: bash
+    Afghanistan
+    Bangladesh
+    Sri Lanka
+    Pakistan
+    Kuwait
+    Qatar
+    Bahrain
+    UAE
+    Saudi Arabia
+    Oman
+    Jordan
+    Lebanon
+    Cyprus
+    Malta
+    Armenia
+    Georgia
+    Mongolia
+    Uzbekistan
+    Tanzania
+    Kenya
+    Uganda
+    Ethiopia
+    United States (USA)
+    United Kingdom (UK)
+    France
+    Turkey
+    Belgium
+    Sweden
+    Switzerland
+    Austria
+    New Zealand
+    Denmark
+    Norway
+    Finland
+    Iceland
+    Portugal
+    Greece
+    South Korea
+    Thailand
+    Vietnam
+    Philippines
+    Chile
 
 12/12/23
 --------
