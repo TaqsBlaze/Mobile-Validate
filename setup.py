@@ -32,7 +32,7 @@ The module currently supports phone number validation for a wide range of countr
 * South America: Argentina, Brazil
 * Oceania: Australia
 
-## 43 Added countries v1.3.3
+Added countries v1.3.3
 * Afghanistan
 * Bangladesh
 * Sri Lanka
